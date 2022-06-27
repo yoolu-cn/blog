@@ -1,3 +1,9 @@
+### [1.0.2](https://github.com/yoolu-cn/blog/compare/v1.0.1...v1.0.2) (2022-06-27)
+
+### Documentation
+
+- ✏️ 修改 shields 配置 展示接口数据 ([9cd6501](https://github.com/yoolu-cn/blog/commit/9cd6501396bb5079b8fc164aaefe50ad1c0c19f5))
+
 ### [1.0.1](https://github.com/yoolu-cn/blog/compare/v1.0.0...v1.0.1) (2022-06-27)
 
 ### Bug Fixes
