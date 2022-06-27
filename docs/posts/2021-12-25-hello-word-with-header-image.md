@@ -30,7 +30,6 @@ Most people would find the picture of our universe as an infinite **tower of tor
 
 大部分人会觉得，把我们的宇宙喻为一个无限的**乌龟塔**相当荒谬，可是为什么我们自以为知道得更多一些呢？我们对宇宙了解了多少？而我们又是怎样才知道的呢？宇宙从何而来又将向何处去？宇宙有开端吗？如果有的话，在这开端之前发生了什么？时间的本质是什么？它会有一个终结吗？在物理学上的一些最新突破，使一部分奇妙的新技术得以实现，从而对于回答这些长期以来悬而未决的某些问题有所启发。也许有一天这些答案会像我们认为地球绕着太阳运动那样显而易见——当然也可能像乌龟塔那般荒唐可笑。不管怎样，惟有让时间来判断了。[^2]
 
-
 ## H2 Heading
 
 ### H3 Heading
@@ -40,7 +39,6 @@ Most people would find the picture of our universe as an infinite **tower of tor
 ##### H5 Heading
 
 ###### H6 Heading
-
 
 ## Code
 
@@ -68,7 +66,6 @@ while True:
   me.eat(10)
 ```
 
-
 ### Code Groups
 
 <CodeGroup>
@@ -89,19 +86,17 @@ npm install -D vuepress-theme-gungnir@next
 </CodeGroupItem>
 </CodeGroup>
 
-
 ### Inline Code
 
 `const a = 1`
 
 ## Table
 
-| Name | Info |
-|------|------|
+| Name                   | Info                                    |
+| ---------------------- | --------------------------------------- |
 | vuepress-theme-gungnir | Gungnir is a blog theme for Vuepress 2. |
 
 ## Badges <Badge text="tip" /> <Badge text="warning" type="warning" /> <Badge text="danger" type="danger" /> <Badge text="tip middle" vertical="middle" />
-
 
 ## Charts
 
@@ -157,12 +152,6 @@ sequenceDiagram
   end
 ```
 
-
-## Images
-
-![Image Example](/img/home-bg/3.jpg)
-
-
 ## Maths
 
 Inline math: $E = mc^2$
@@ -182,11 +171,9 @@ $$
 \end{gather}
 $$
 
-
 ## Emojis
 
 :smile: :smirk: :racehorse: :wolf:
-
 
 ## Containers
 
@@ -215,9 +202,11 @@ This is a dangerous warning message.
 :::
 
 ::: details Show me the code.
+
 ```cpp
 cout << "Hello World!" << "\n";
 ```
+
 :::
 
 ::: details Show me the code group.
@@ -225,7 +214,7 @@ cout << "Hello World!" << "\n";
 <CodeGroupItem title="JS" active>
 
 ```js
-console.log("Hello World!");
+console.log('Hello World!')
 ```
 
 </CodeGroupItem>
@@ -242,6 +231,5 @@ print("Hello World!")
 
 ## References
 
-[^1]: Excerpted from: *A Brief History of Time*, written by Stephen Hawking.
-
+[^1]: Excerpted from: _A Brief History of Time_, written by Stephen Hawking.
 [^2]: 摘自《时间简史》，作者为斯蒂芬·霍金。
