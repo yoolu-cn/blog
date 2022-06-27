@@ -1,0 +1,103 @@
+{
+  "name": "yoolu-blog",
+  "version": "0.0.9",
+  "description": "Personal blog based on Vuepress static website generator, sharing Web Android Java technology",
+  "keywords": [
+    "@vuepress",
+    "leetcode",
+    "webpack",
+    "nodeJs",
+    "Vue",
+    "React",
+    "Android",
+    "Java",
+    "TypeScript"
+  ],
+  "homepage": "https://github.com/yoolu-cn/blog#readme",
+  "bugs": {
+    "url": "https://github.com/yoolu-cn/blog/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoolu-cn/blog.git"
+  },
+  "license": "MIT",
+  "author": "jerry@yoolu.cn",
+  "main": "index.js",
+  "scripts": {
+    "commit": "git-cz",
+    "docs:build": "vuepress build docs",
+    "docs:clean": "rimraf docs/.vuepress/.temp docs/.vuepress/.cache docs/.vuepress/dist",
+    "docs:dev": "vuepress dev docs",
+    "lint": "eslint --ext .js,.ts,.vue .",
+    "prepare": "husky install",
+    "release": "standard-version",
+    "release:major": "standard-version --release-as major",
+    "release:minor": "standard-version --release-as minor",
+    "release:patch": "standard-version --release-as patch"
+  },
+  "lint-staged": {
+    "*.{js,ts,vue}": "eslint --fix",
+    "*.{json,yml,css,scss}": "prettier --write",
+    "package.json": "sort-package-json"
+  },
+  "config": {
+    "commitizen": {
+      "path": "git-cz"
+    }
+  },
+  "prettier": "prettier-config-vuepress",
+  "dependencies": {
+    "@vuepress/bundler-vite": "2.0.0-beta.45",
+    "@vuepress/bundler-webpack": "2.0.0-beta.45",
+    "@vuepress/cli": "2.0.0-beta.45",
+    "@vuepress/client": "^2.0.0-beta.42",
+    "@vuepress/plugin-docsearch": "2.0.0-alpha.1",
+    "vue": "^3.2.36",
+    "vuepress": "2.0.0-beta.48",
+    "vuepress-theme-gungnir": "2.0.0-alpha.25"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.0.3",
+    "@commitlint/config-conventional": "^17.0.3",
+    "@types/webpack-env": "^1.17.0",
+    "eslint": "^8.18.0",
+    "eslint-config-vuepress": "^3.10.0",
+    "eslint-config-vuepress-typescript": "^2.9.1",
+    "git-cz": "^4.9.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "oh-vue-icons": "1.0.0-rc3",
+    "prettier": "^2.7.1",
+    "prettier-config-vuepress": "^1.4.0",
+    "sass-loader": "^13.0.1",
+    "sort-package-json": "^1.57.0",
+    "standard-version": "^9.5.0",
+    "tsconfig-vuepress": "^0.2.1",
+    "typescript": "^4.7.4"
+  },
+  "packageManager": "pnpm@7.1.7",
+  "engines": {
+    "node": ">=14",
+    "pnpm": ">=7"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "@algolia/client-search",
+        "@types/react",
+        "eslint-plugin-import",
+        "eslint-plugin-n",
+        "eslint-plugin-promise",
+        "react",
+        "react-dom",
+        "webpack"
+      ]
+    }
+  },
+  "standard-version": {
+    "skip": {
+      "tag": true
+    }
+  }
+}
