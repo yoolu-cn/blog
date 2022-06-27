@@ -1,4 +1,17 @@
 
+## 1.0.0 (2022-06-27)
+
+
+### Code Refactoring
+
+* 💡 初始化 blog, 添加 docs, 添加 workflow ([c3e427f](https://github.com/yoolu-cn/blog/commit/c3e427fb920407200e58fdaed092ece0e4042649))
+
+
+### Continuous Integration
+
+* 🎡 改 Github-tag-action initial_version 配置为0.0.1 ([b0a4c14](https://github.com/yoolu-cn/blog/commit/b0a4c145afce4906ffdde1277f7cb8ca63deeacd))
+* 🎡 修改 Github-tag-action bump 配置为major ([d7af465](https://github.com/yoolu-cn/blog/commit/d7af46527487959ff5934bdae13c16f950b9ed45))
+
 ### 0.0.5 (2022-06-26)
 
 
