@@ -1,6 +1,6 @@
 {
   "name": "yoolu-blog",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Personal blog based on Vuepress static website generator, sharing Web Android Java technology",
   "keywords": [
     "@vuepress",
@@ -38,7 +38,7 @@
   },
   "lint-staged": {
     "*.{js,ts,vue}": "eslint --fix",
-    "*.{json,yml,css,scss}": "prettier --write",
+    "*.{json,yml,css,scss,md}": "prettier --write",
     "package.json": "sort-package-json"
   },
   "config": {
