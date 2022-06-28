@@ -1,3 +1,9 @@
+### [1.0.3](https://github.com/yoolu-cn/blog/compare/v1.0.2...v1.0.3) (2022-06-28)
+
+### Bug Fixes
+
+- 🐛 修复网站 favicon 图片不展示 ([bd48872](https://github.com/yoolu-cn/blog/commit/bd48872449201e1e46b1ae0580df04cff694d372)), closes [#9](https://github.com/yoolu-cn/blog/issues/9)
+
 ### [1.0.2](https://github.com/yoolu-cn/blog/compare/v1.0.1...v1.0.2) (2022-06-27)
 
 ### Documentation
