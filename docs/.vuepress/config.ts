@@ -6,10 +6,57 @@ import { navbar, sidebar } from './configs'
 const isProd = process.env.NODE_ENV === 'production'
 
 module.exports = {
-  lang: 'zh-CN',
-  title: 'yoolu team',
-  description:
-    'Personal blog based on Vuepress static website generator, sharing Web Android Java technology',
+  base: '/',
+
+  head: [
+    [
+      'link',
+      {
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '16x16',
+        href: `/img/logo/favicon-16x16.png`,
+      },
+    ],
+    [
+      'link',
+      {
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '32x32',
+        href: `/img/logo/favicon-32x32.png`,
+      },
+    ],
+    ['link', { rel: 'manifest', href: '/manifest.webmanifest' }],
+    ['meta', { name: 'application-name', content: 'Yoolu Blog' }],
+    ['meta', { name: 'apple-mobile-web-app-title', content: 'Yoolu Blog' }],
+    [
+      'meta',
+      { name: 'apple-mobile-web-app-status-bar-style', content: 'black' },
+    ],
+    [
+      'link',
+      { rel: 'apple-touch-icon', href: `/img/logo/apple-touch-icon.png` },
+    ],
+    ['meta', { name: 'theme-color', content: '#377bb5' }],
+    ['meta', { name: 'msapplication-TileColor', content: '#377bb5' }],
+  ],
+
+  // site-level locales config
+  locales: {
+    '/': {
+      lang: 'en-US',
+      title: 'yoolu team',
+      description:
+        'Personal blog based on Vuepress static website generator, sharing Web Android Java technology',
+    },
+    '/zh/': {
+      lang: 'zh-CN',
+      title: 'yoolu team',
+      description:
+        'Personal blog based on Vuepress static website generator, sharing Web Android Java technology',
+    },
+  },
 
   // specify bundler via environment variable
   bundler:
