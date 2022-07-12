@@ -248,9 +248,10 @@ module.exports = {
     },
 
     footer: `
-    MIT Licensed | Copyright &copy; <a href="https://github.com/yoolu-cn" target="_blank"> Yoolu Contributors</a> 2021-2022 
-    Powered by <a href="https://v2.vuepress.vuejs.org" target="_blank">VuePress</a>
-    <a style="margin-left:10px;" href="https://beian.miit.gov.cn/" target="_blank">陇ICP备19002885号-4</a>  
+      <a style="margin-right:10px;" href="https://beian.miit.gov.cn/" target="_blank">陇ICP备19002885号-4</a>  
+      <a style="margin-right:10px;" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=62082102202017" target="_blank">甘公网安备62082102202017号</a>
+      MIT Licensed | Copyright &copy; <a href="https://github.com/yoolu-cn" target="_blank"> Yoolu Contributors</a> 2021-2022 
+      Powered by <a href="https://v2.vuepress.vuejs.org" target="_blank">VuePress</a>
     `,
   }),
 }

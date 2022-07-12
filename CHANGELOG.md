@@ -1,3 +1,13 @@
+### [1.0.4](https://github.com/yoolu-cn/blog/compare/v1.0.3...v1.0.4) (2022-07-12)
+
+### Features
+
+- ✨ 网站新增公安备案号 ([185e371](https://github.com/yoolu-cn/blog/commit/185e37172e6c975670379acfab0798a012dc66e2))
+
+### Bug Fixes
+
+- 🐛 修复 8 号背景图片加载错误 ([11df60c](https://github.com/yoolu-cn/blog/commit/11df60c9d4cc0a9610dfe98654217b27eb108bbf))
+
 ### [1.0.3](https://github.com/yoolu-cn/blog/compare/v1.0.2...v1.0.3) (2022-06-28)
 
 ### Bug Fixes
