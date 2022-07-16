@@ -1,3 +1,9 @@
+### [1.0.5](https://github.com/yoolu-cn/blog/compare/v1.0.4...v1.0.5) (2022-07-16)
+
+### Chore
+
+- 🚀 将 blog 中的大图全部优化为 webp ([fa4149a](https://github.com/yoolu-cn/blog/commit/fa4149a47f48b3ee053810fa0f180acbc0de0e1a))
+
 ### [1.0.4](https://github.com/yoolu-cn/blog/compare/v1.0.3...v1.0.4) (2022-07-12)
 
 ### Features
