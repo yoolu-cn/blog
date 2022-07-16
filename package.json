@@ -1,6 +1,6 @@
 {
   "name": "yoolu-blog",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Personal blog based on Vuepress static website generator, sharing Web Android Java technology",
   "keywords": [
     "@vuepress",
@@ -23,6 +23,7 @@
   },
   "license": "MIT",
   "author": "jerry@yoolu.cn",
+  "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "commit": "git-cz",
@@ -34,7 +35,8 @@
     "release": "standard-version",
     "release:major": "standard-version --release-as major",
     "release:minor": "standard-version --release-as minor",
-    "release:patch": "standard-version --release-as patch"
+    "release:patch": "standard-version --release-as patch",
+    "webp": "node cwebp.js"
   },
   "lint-staged": {
     "*.{js,ts,vue}": "eslint --fix",
@@ -53,6 +55,8 @@
     "@vuepress/cli": "2.0.0-beta.45",
     "@vuepress/client": "^2.0.0-beta.42",
     "@vuepress/plugin-docsearch": "2.0.0-alpha.1",
+    "imagemin": "^8.0.1",
+    "imagemin-webp": "^7.0.0",
     "vue": "^3.2.36",
     "vuepress": "2.0.0-beta.48",
     "vuepress-theme-gungnir": "2.0.0-alpha.25"

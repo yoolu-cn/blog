@@ -83,95 +83,95 @@ module.exports = {
     // header images on home page
     homeHeaderImages: [
       {
-        path: '/image/bg_1.jpg',
+        path: '/image/bg_1.webp',
         mask: 'rgba(40, 57, 101, .4)',
       },
       {
-        path: '/image/bg_2.jpg',
+        path: '/image/bg_2.webp',
         mask: 'rgba(40, 57, 101, .4)',
       },
       {
-        path: '/image/bg_3.jpg',
+        path: '/image/bg_3.webp',
         mask: 'rgba(40, 57, 101, .4)',
       },
       {
-        path: '/image/bg_4.jpeg',
+        path: '/image/bg_4.webp',
         mask: 'rgba(40, 57, 101, .4)',
       },
       {
-        path: '/image/bg_5.jpg',
+        path: '/image/bg_5.webp',
         mask: 'rgba(40, 57, 101, .4)',
       },
       {
-        path: '/image/bg_6.jpg',
+        path: '/image/bg_6.webp',
         mask: 'rgba(40, 57, 101, .4)',
       },
       {
-        path: '/image/bg_7.jpg',
+        path: '/image/bg_7.webp',
         mask: 'rgba(40, 57, 101, .4)',
       },
       {
-        path: '/image/bg_8.jpg',
+        path: '/image/bg_8.webp',
         mask: 'rgba(40, 57, 101, .4)',
       },
       {
-        path: '/image/bg_9.jpg',
+        path: '/image/bg_9.webp',
         mask: 'rgba(40, 57, 101, .4)',
       },
       {
-        path: '/image/bg_10.jpg',
+        path: '/image/bg_10.webp',
         mask: 'rgba(40, 57, 101, .4)',
       },
       {
-        path: '/image/bg_11.jpg',
+        path: '/image/bg_11.webp',
         mask: 'rgba(40, 57, 101, .4)',
       },
       {
-        path: '/image/bg_12.jpg',
+        path: '/image/bg_12.webp',
         mask: 'rgba(40, 57, 101, .4)',
       },
       {
-        path: '/image/bg_13.jpg',
+        path: '/image/bg_13.webp',
         mask: 'rgba(40, 57, 101, .4)',
       },
       {
-        path: '/image/bg_14.jpg',
+        path: '/image/bg_14.webp',
         mask: 'rgba(40, 57, 101, .4)',
       },
       {
-        path: '/image/bg_15.jpg',
+        path: '/image/bg_15.webp',
         mask: 'rgba(40, 57, 101, .4)',
       },
       {
-        path: '/image/bg_16.jpg',
+        path: '/image/bg_16.webp',
         mask: 'rgba(40, 57, 101, .4)',
       },
       {
-        path: '/image/bg_17.jpg',
+        path: '/image/bg_17.webp',
         mask: 'rgba(40, 57, 101, .4)',
       },
       {
-        path: '/image/bg_18.jpg',
+        path: '/image/bg_18.webp',
         mask: 'rgba(40, 57, 101, .4)',
       },
       {
-        path: '/image/bg_19.jpg',
+        path: '/image/bg_19.webp',
         mask: 'rgba(40, 57, 101, .4)',
       },
       {
-        path: '/image/bg_20.jpg',
+        path: '/image/bg_20.webp',
         mask: 'rgba(40, 57, 101, .4)',
       },
       {
-        path: '/image/bg_21.jpeg',
+        path: '/image/bg_21.webp',
         mask: 'rgba(40, 57, 101, .4)',
       },
       {
-        path: '/image/bg_22.jpeg',
+        path: '/image/bg_22.webp',
         mask: 'rgba(40, 57, 101, .4)',
       },
       {
-        path: '/image/bg_23.jpeg',
+        path: '/image/bg_23.webp',
         mask: 'rgba(40, 57, 101, .4)',
       },
     ],
@@ -181,7 +181,7 @@ module.exports = {
       tags: {
         subtitle: 'Black Sheep Wall',
         bgImage: {
-          path: '/img/pages/tags.jpg',
+          path: '/img/pages/tags.webp',
           mask: 'rgba(211, 136, 37, .5)',
         },
       },
@@ -189,7 +189,7 @@ module.exports = {
         subtitle:
           'When you are looking at the stars, please put the brightest star shining night sky as my soul.',
         bgImage: {
-          path: '/img/pages/links.jpg',
+          path: '/img/pages/links.webp',
           mask: 'rgba(64, 118, 190, 0.5)',
         },
       },

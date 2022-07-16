@@ -5,7 +5,7 @@ subtitle: A Test Post with a Header Image
 author: Renovamen
 date: 2021-12-25
 useHeaderImage: true
-headerImage: /img/in-post/2021-12-25/header.jpg
+headerImage: /img/in-post/2021-12-25.webp
 headerMask: rgba(40, 57, 101, .4)
 tags:
   - test
