@@ -1,3 +1,9 @@
+### [1.0.6](https://github.com/yoolu-cn/blog/compare/v1.0.5...v1.0.6) (2022-07-16)
+
+### Bug Fixes
+
+- 🐛 手动修改 package.json 依赖导致 pnpm-lock.yaml 不匹配" ([7f75bfa](https://github.com/yoolu-cn/blog/commit/7f75bfa01c3d5f0b092c3f5cb54a4e7af28a07c1))
+
 ### [1.0.5](https://github.com/yoolu-cn/blog/compare/v1.0.4...v1.0.5) (2022-07-16)
 
 ### Chore
