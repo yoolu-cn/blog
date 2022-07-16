@@ -4,7 +4,7 @@ title: Hello Word 1
 subtitle: A Test Post without the Header Image
 author: Renovamen
 date: 2021-12-24
-headerImage: /img/in-post/2021-12-24/header.jpg
+headerImage: /img/in-post/2021-12-24.webp
 tags:
   - test
   - tag with space
