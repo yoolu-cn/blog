@@ -28,8 +28,8 @@
   "scripts": {
     "commit": "git-cz",
     "docs:build": "vuepress build docs",
-    "docs:clean": "rimraf docs/.vuepress/.temp docs/.vuepress/.cache docs/.vuepress/dist",
-    "docs:dev": "vuepress dev docs", 
+    "docs:clean": "rimraf docs/.vuepress/.temp docs/.vuepress/.cache docs/.vuepress/dist", 
+    "docs:dev": "vuepress dev docs",
     "lint": "eslint --ext .js,.ts,.vue .",
     "prepare": "husky install",
     "release": "standard-version",
