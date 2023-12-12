@@ -28,7 +28,7 @@
   "scripts": {
     "commit": "git-cz",
     "docs:build": "vuepress build docs",
-    "docs:clean": "rimraf docs/.vuepress/.temp docs/.vuepress/.cache docs/.vuepress/dist", 
+    "docs:clean": "rimraf docs/.vuepress/.temp docs/.vuepress/.cache docs/.vuepress/dist",
     "docs:dev": "vuepress dev docs",
     "lint": "eslint --ext .js,.ts,.vue .",
     "prepare": "husky install",
@@ -83,14 +83,14 @@
   "packageManager": "pnpm@8.12.0",
   "engines": {
     "node": ">=18",
-    "pnpm": ">=8"   
+    "pnpm": ">=8"
   },
   "pnpm": {
     "peerDependencyRules": {
       "ignoreMissing": [
         "@algolia/client-search",
         "@types/react",
-        "eslint-plugin-import", 
+        "eslint-plugin-import",
         "eslint-plugin-n",
         "eslint-plugin-promise",
         "react",
