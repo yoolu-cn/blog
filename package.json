@@ -1,7 +1,7 @@
 {
   "name": "yoolu-blog",
   "version": "1.0.6",
-  "description": "Personal blog based on Vuepress static website generator, sharing Web Android Java technology",
+  "description": "Personal blog based on Vuepress static website generator, sharing Web Android Java technology", 
   "keywords": [
     "@vuepress",
     "leetcode",
@@ -64,7 +64,7 @@
   "devDependencies": {
     "@commitlint/cli": "^17.0.3",
     "@commitlint/config-conventional": "^17.0.3",
-    "@types/webpack-env": "^1.17.0", 
+    "@types/webpack-env": "^1.17.0",
     "eslint": "^8.18.0",
     "eslint-config-vuepress": "^3.10.0",
     "eslint-config-vuepress-typescript": "^2.9.1",
@@ -80,17 +80,17 @@
     "tsconfig-vuepress": "^0.2.1",
     "typescript": "^4.7.4"
   },
-  "packageManager": "pnpm@8.12.0",    
+  "packageManager": "pnpm@8.12.0",
   "engines": {
-    "node": ">=18", 
-    "pnpm": ">=10" 
+    "node": ">=18",
+    "pnpm": ">=10"
   },
   "pnpm": {
-    "peerDependencyRules": { 
+    "peerDependencyRules": {
       "ignoreMissing": [
         "@algolia/client-search",
         "@types/react",
-        "eslint-plugin-import", 
+        "eslint-plugin-import",
         "eslint-plugin-n",
         "eslint-plugin-promise",
         "react",
