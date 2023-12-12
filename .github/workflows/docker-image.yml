@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Bump version and push tag
-        uses: anothrNick/github-tag-action@1.36.0 
+        uses: anothrNick/github-tag-action@1.64.0  
         id: packageVersion
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
