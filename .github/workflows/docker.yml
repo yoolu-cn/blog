@@ -10,14 +10,14 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [14.x]
+        node-version: [18.x]
 
     steps:
       - name: Check out the repo
         uses: actions/checkout@v3
 
       - name: Bump version and push tag
-        uses: anothrNick/github-tag-action@1.36.0
+        uses: anothrNick/github-tag-action@1.64.0
         id: packageVersion
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
