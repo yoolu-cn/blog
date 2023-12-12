@@ -54,7 +54,7 @@
     "@vuepress/bundler-webpack": "2.0.0-beta.45",
     "@vuepress/cli": "2.0.0-beta.45",
     "@vuepress/client": "^2.0.0-beta.42",
-    "@vuepress/plugin-docsearch": "2.0.0-alpha.1", 
+    "@vuepress/plugin-docsearch": "2.0.0-alpha.1",
     "imagemin": "^8.0.1",
     "imagemin-webp": "^7.0.0",
     "vue": "^3.2.36",
