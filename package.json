@@ -1,7 +1,7 @@
 {
   "name": "yoolu-blog",
   "version": "1.0.6",
-  "description": "Personal blog based on Vuepress static website generator, sharing Web Android Java technology", 
+  "description": "Personal blog based on Vuepress static website generator, sharing Web Android Java technology",
   "keywords": [
     "@vuepress",
     "leetcode",
