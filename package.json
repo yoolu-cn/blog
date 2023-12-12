@@ -54,7 +54,7 @@
     "@vuepress/bundler-webpack": "2.0.0-beta.45",
     "@vuepress/cli": "2.0.0-beta.45",
     "@vuepress/client": "^2.0.0-beta.42",
-    "@vuepress/plugin-docsearch": "2.0.0-alpha.1",
+    "@vuepress/plugin-docsearch": "2.0.0-alpha.1", 
     "imagemin": "^8.0.1",
     "imagemin-webp": "^7.0.0",
     "vue": "^3.2.36",
@@ -64,7 +64,7 @@
   "devDependencies": {
     "@commitlint/cli": "^17.0.3",
     "@commitlint/config-conventional": "^17.0.3",
-    "@types/webpack-env": "^1.17.0",
+    "@types/webpack-env": "^1.17.0", 
     "eslint": "^8.18.0",
     "eslint-config-vuepress": "^3.10.0",
     "eslint-config-vuepress-typescript": "^2.9.1",
@@ -80,17 +80,17 @@
     "tsconfig-vuepress": "^0.2.1",
     "typescript": "^4.7.4"
   },
-  "packageManager": "pnpm@7.1.7",
+  "packageManager": "pnpm@8.12.0",    
   "engines": {
-    "node": ">=14",
-    "pnpm": ">=7"
+    "node": ">=18", 
+    "pnpm": ">=10" 
   },
   "pnpm": {
-    "peerDependencyRules": {
+    "peerDependencyRules": { 
       "ignoreMissing": [
         "@algolia/client-search",
         "@types/react",
-        "eslint-plugin-import",
+        "eslint-plugin-import", 
         "eslint-plugin-n",
         "eslint-plugin-promise",
         "react",
